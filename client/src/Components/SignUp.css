@@ -1,0 +1,58 @@
+.container1 {
+  background-color: rgba(255, 255, 255, 0.8); /* Background color for the container */
+  padding: 20px; /* Add some padding around the content */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  width: 400px; /* Set the width of the container */
+  height: 600px; /* Set the height of the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+}
+
+.background-image1 {
+  background-image: url("C:\Users\vsahi\Downloads\2nd year\hms\Health-Connect-main\client\src\Components\signupbg.jpg"); /* Replace 'background.jpg' with your actual image file path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+}
+
+.inputField {
+  margin-bottom: 10px;
+  width: 100%; /* Set the width to 100% */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.submitButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.submitButton:active {
+  background-color: #4caf50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(2px);
+}

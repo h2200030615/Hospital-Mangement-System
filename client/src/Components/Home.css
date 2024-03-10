@@ -1,0 +1,43 @@
+.inputField {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    outline: none;
+  }
+  
+  .inputField:focus {
+    border-color: #4caf50;
+  }
+  
+  .submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  .submitButton:active {
+    background-color: #4caf50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+  }
+  
+  .background-container {
+    background-image: url("C:\Users\vsahi\OneDrive\Pictures\shiva-hindu-god-silver-sculpture-meditation_849906-16794.jpg");
+    background-size: cover; /* or contain, depending on how you want the image to behave */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  

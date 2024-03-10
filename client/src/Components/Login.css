@@ -1,0 +1,38 @@
+/* Login.css */
+
+.login-container {
+    background-image: url("C:/Users/vsahi/Downloads/2nd year/hms/Health-Connect-main/client/src/Components/loginbg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(8px);
+    position: relative;
+    width: 400px; /* Set width */
+    height: 400px; /* Set height to the same value as width */
+    margin: 0 auto;
+  }
+  .login-form {
+    position: relative;
+    width: 300px;
+    }
+
+  
+  .login-form .form-group {
+    margin-bottom: 5px; /* Adjust spacing between form fields */
+  }
+  
+  .login-form .MuiTextField-root {
+    width: 100%; /* Set width of text fields */
+  }
+  
